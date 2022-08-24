@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color:white;
+    width: 1260px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid grey;
+    box-shadow: 0px 2px rgb(230, 230, 230);
+    
+    
+}
+
+.logo{
+    margin: 20px 5px 5px 5px ;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+header{
+    margin: 15px 0px 0px 350px;
+
+}
+.order li{
+    left: 350px;
+    position: relative;
+    float: left;
+    display: inline;
+    padding: 20px;
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+} 
+.order li a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.button{
+    position: relative;
+    float: left;
+    left: 370px;
+    margin-top: -37px;
+    color: blue;
+    border-color: blue;
+    border-style: groove;
+    height: 30px;
+    
+}
+.ans{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+.pro{
+    text-align: center;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  
+    float: left;
+    width: 28%;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 50px;
+    height: 260px;
+    border-radius: 5px;
+    
+  }
+  .row1{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color:lightgray;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+    
+  } 
+
+
+  
+  Clear floats after the columns
+  .row{
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .click{
+    color: blue;
+    border-color: rgb(63, 56, 165);
+    padding: 7px;
+    border-radius: 5px;
+  }
+  .type{
+    color:white;
+    border-color: rgb(63, 56, 165);
+    padding: 7px;
+    background-color: blue;
+    width: 200px;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+   
+  }
+
+    .column1 {
+        float: left;
+        width: 25%;
+        padding: 15px;
+        text-align: left;
+      }
+     
+
+      .fig {
+        width: 30px;
+         height:30px;
+         margin-left: 50px;
+         margin-top: 30px;
+      }
+
+      #one{
+        margin-left: 45px;
+        font-size: small;
+      }
+
+      
+      
